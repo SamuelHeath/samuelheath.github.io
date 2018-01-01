@@ -3,6 +3,7 @@ h2,h3 {
 }
 .wrapper {
     margin: 0px;
+    min-height: 100vh;
     //background: url(../img/header.jpg) no-repeat center;
     background-size: cover;
     //border-bottom: solid 2px;
@@ -22,8 +23,6 @@ section {
     margin: 0px;
     padding: 0px;
     padding-top: 40vh;
-    padding-left: 15vh;
-    min-height: 100vh;
 }
 .quick-nav > a {
     padding-right: 5px;
@@ -79,10 +78,10 @@ section {
 .timeline li {
   position: relative;
   left: 49%;
-  content: " "
+  content: " ";
   //display: block;
-  width: 12px;
-  height: 12px;
+  width: 2%;
+  height: 2%;
   margin-top: 30px;
   margin-bottom: 30px;
   background: #eee;
@@ -228,10 +227,11 @@ section {
   margin: 1em 0 0 0.75em;
 }
 
+
 /* ================ Timeline Media Queries ================ */
 
 @media screen and (max-width: 660px) {
-
+/*
 .timeline {
  	width: 100%;
 	padding: 4em 0 1em 0;
@@ -334,4 +334,4 @@ section {
 	margin: 1em 4em 0 4em;
 }
 
-}
+}*/
