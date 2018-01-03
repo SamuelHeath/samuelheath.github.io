@@ -9,7 +9,7 @@
     <link href="css/style.css" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="crossorigin="anonymous"></script>    
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
 </head>
@@ -22,7 +22,7 @@
                         <div>
                             <h1>Samuel Heath</h1>
                             <div class="header-sub">
-                                Computer Science & Software Engineering Student Perth, WA.
+                                <p>Computer Science & Software Engineering Student Perth, WA.</p>
                             </div>
                         </div>
                         <div class="quick-nav">
@@ -44,22 +44,26 @@
     <div class="content">
         <section id="about">
             <div class="container">
-                <div class="row">
-                    <h2 class="col-md-12 text-center" id="about">About Me</h2>
-                    <div class="col-md-12 text-center" id="intro">
-                        <p class="col-md-8 offset-md-2">Hi my name is Samuel Heath and I'm a Software Engineering and Computer Science student who loves to solve real-world problems</p>
+                <div class="row text-center">
+                    <div class="col-md-12">
+                        <h2>About Me</h2>
+                        <div id="intro">
+                            <p class="col-md-8 offset-md-2">Hi my name is Samuel Heath and I'm a Software Engineering and Computer Science student who loves to solve real-world problems</p>
+                        </div>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-md-6" id="information">
                         <div class="row col-md-12">
-                            <div class="">
+                            <div class="text-center">
                                 <h3 class="text-center">Education</h3>
-                                <p><strong>2015-2018: B.Sc. Engineering Science and Computer Science</strong> (Software Engineering Specialisation) </p>
+                                <p><strong>B.Sc. Engineering Science and Computer Science</strong> (Software Engineering Specialisation)</p>
                                 <p><strong>WAM:</strong> 81.75% <strong>GPA:</strong> 6.75</p>
                             </div>
                         </div>
-                        <div class="row col-md-12">
+                    </div>
+                    <div class="col-md-6" id="information">
+                        <div class="row">
                             <div class="text-center">
                                 <h3>Experience</h3>
                                 <div class="row align-items-center">
@@ -70,72 +74,106 @@
                                         <img src="img/BHP-icon.png"  height="35"/>
                                     </div>
                                     <div class="col">
-                                        <img src="img/bloom-icon.png" height="45"/>
+                                        <a href="https://www.bloom.org.au/"><img src="img/bloom-icon.png" height="45"/></a>
                                     </div>
                                     <div class="col">
-                                        <img src="img/gv-icon.png" height="80"/>
+                                        <a href="http://www.volunteering.guild.uwa.edu.au/"><img src="img/gv-icon.png" height="80"/></a>
                                     </div>
                                     <div class="col">
-                                        <img src="img/codersforcauses-icon.png" width="70" />
+                                        <a href="http://codersforcauses.org/"><img src="img/codersforcauses-icon.png" width="70" /></a>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6">
-                        <ul class="timeline" id="random">
-                            <li>
-                                <div class="direction-r" hidden="true">
-                                    <div class="flag-wrapper">
-                                        <span class="flag">Technology Intern - BHP</span>
-                                        <span class="time-wrapper"><span class="time">Nov. 2017 - present</span></span>
-                                    </div>
-                                    <div class="desc"></div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row" id="timeline">
+                    <div class="col-md-12">
+                        <ul class="timeline">
+                            <li class="timeline-inverted">
+                                <div class="timeline-badge"><i class="glyphicon glyphicon-check"></i></div>
+                                <div class="timeline-panel">
+                                  <div class="timeline-heading">
+                                    <h5 class="timeline-title">Intended Graduation - UWA</h5>
+                                    <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i>July 2018</small></p>
+                                  </div>
+                                  <div class="timeline-body">
+                                      <p></p>
+                                  </div>
                                 </div>
                             </li>
                             <li>
-                                <div class="direction-l" hidden="true">
-                                    <div class="flag-wrapper">
-                                        <span class="flag">WA Capture the Flag</span>
-                                        <span class="time-wrapper"><span class="time">Dec. 2017</span></span>
-                                    </div>
-                                    <div class="desc">Competed in a pair against forty five teams to solve a series of cyber-security problems, finishing tenth.</div>
+                                <div class="timeline-badge"><i class="glyphicon glyphicon-check"></i></div>
+                                <div class="timeline-panel">
+                                  <div class="timeline-heading">
+                                    <h5 class="timeline-title">Technology Intern - BHP</h5>
+                                    <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i>Nov. 2017 - Feb. 2018</small></p>
+                                  </div>
+                                  <div class="timeline-body">
+                                      <p></p>
+                                  </div>
+                                </div>
+                            </li>
+                            <li class="timeline-inverted">
+                                <div class="timeline-badge"><i class="glyphicon glyphicon-check"></i></div>
+                                <div class="timeline-panel">
+                                  <div class="timeline-heading">
+                                    <h5 class="timeline-title">WA Capture the Flag</h5>
+                                    <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i>Dec. 2017</small></p>
+                                  </div>
+                                  <div class="timeline-body">
+                                      <p>Competed in a pair against forty five teams to solve a series of cyber-security problems, finishing tenth.</p>
+                                  </div>
                                 </div>
                             </li>
                             <li>
-                                <div class="direction-r" hidden="true">
-                                    <div class="flag-wrapper">
-                                        <span class="flag">IT Officer - Bloom</span>
-                                        <span class="time-wrapper"><span class="time">July 2017 - present</span></span>
-                                    </div>
-                                    <div class="desc"></div>
+                                <div class="timeline-badge"><i class="glyphicon glyphicon-check"></i></div>
+                                <div class="timeline-panel">
+                                  <div class="timeline-heading">
+                                    <h5 class="timeline-title">IT Officer - Bloom</h5>
+                                    <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i>July 2017 - present</small></p>
+                                  </div>
+                                  <div class="timeline-body">
+                                      <p></p>
+                                  </div>
+                                </div>
+                            </li>
+                            <li class="timeline-inverted">
+                                <div class="timeline-badge"><i class="glyphicon glyphicon-check"></i></div>
+                                <div class="timeline-panel">
+                                  <div class="timeline-heading">
+                                    <h5 class="timeline-title">National Youth Hackathon</h5>
+                                    <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i>April 2017</small></p>
+                                  </div>
+                                  <div class="timeline-body">
+                                      <p></p>
+                                  </div>
                                 </div>
                             </li>
                             <li>
-                                <div class="direction-l" hidden="true">
-                                    <div class="flag-wrapper">
-                                        <span class="flag">National Youth Hackathon</span>
-                                        <span class="time-wrapper"><span class="time">March 2017</span></span>
-                                    </div>
-                                    <div class="desc"></div>
+                                <div class="timeline-badge"><i class="glyphicon glyphicon-check"></i></div>
+                                <div class="timeline-panel">
+                                  <div class="timeline-heading">
+                                    <h5 class="timeline-title">Coders for Causes Summer Project</h5>
+                                    <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i>Dec. 2016 - April 2017</small></p>
+                                  </div>
+                                  <div class="timeline-body">
+                                      <p></p>
+                                  </div>
                                 </div>
                             </li>
-                            <li>
-                                <div class="direction-r" hidden="true">
-                                    <div class="flag-wrapper">
-                                        <span class="flag">Coders for Causes Summer Project</span>
-                                        <span class="time-wrapper"><span class="time">Dec. 2016 - March 2017</span></span>
-                                    </div>
-                                    <div class="desc"></div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="direction-l" hidden="true">
-                                    <div class="flag-wrapper">
-                                        <span class="flag">University of Western Australia</span>
-                                        <span class="time-wrapper"><span class="time">Feb. 2015 - July 2018</span></span>
-                                    </div>
-                                    <div class="desc"></div>
+                            <li class="timeline-inverted">
+                                <div class="timeline-badge"><i class="glyphicon glyphicon-check"></i></div>
+                                <div class="timeline-panel">
+                                  <div class="timeline-heading">
+                                    <h5 class="timeline-title">Undergraduate Degree - UWA</h5>
+                                    <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i>Feb. 2015 - present</small></p>
+                                  </div>
+                                  <div class="timeline-body">
+                                      <p></p>
+                                  </div>
                                 </div>
                             </li>
                         </ul>
@@ -151,21 +189,21 @@
                     </div>
                 </div>
                 <div class="row text-center">
-                    <div class="col">
+                    <div class="col-sm-12 col-md-4">
                         <figure class="figure d-table">
                             <h6>Simplified Bitcoin Protocol</h6>
                             <a href="https://github.com/SamuelHeath/CITS3002-Project"><img src="img/bitcoin-icon.png" class="figure-img img-fluid rounded" width="64"/></a>
                             <figcaption class="figure-caption">A simple Point-2-Point Network that allows users to send currency to Wallet addresses with transaction verification done by a dedicated miner.</figcaption>
                         </figure>
                     </div>
-                    <div class="col">
+                    <div class="col-sm-10 col-md-4">
                         <figure class="figure d-table">
                             <h6>Guild Volunteering Logbook</h6>
                             <a href="https://gvlogbook.herokuapp.com/logbook"><img src="img/gv-icon.png" class="figure-img img-fluid rounded" width="57"/></a>
                             <figcaption class="figure-caption">An electronic alternative to the pre-existing paper-based system. Allows students to log volunteered hours and get them added to their transcripts in just a few clicks.</figcaption>
                         </figure>
                     </div>
-                    <div class="col">
+                    <div class="col-sm-10 col-md-4">
                         <figure class="figure d-table">
                             <h6>Whist AI</h6>
                             <a href="https://github.com/SamuelHeath/AI-Project"><img src="img/cards-icon.ico" class="figure-img img-fluid rounded" width="64" /></a>
@@ -211,6 +249,6 @@
             </div>-->
         </section>
     </div>
-    <script src="js/timeline.js"></script>
+    <script src="js/scroll.js"></script>
 </body>
 </html>
