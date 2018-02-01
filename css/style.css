@@ -3,7 +3,6 @@ h2,h3 {
 }
 .wrapper {
     margin: 0px;
-    min-height: 100vh;
     //background: url(../img/header.jpg) no-repeat center;
     background-size: cover;
     //border-bottom: solid 2px;
@@ -17,12 +16,16 @@ section {
     border-bottom-color: #eeeeee;
 }
 #intro {
-    padding-bottom: 2vh;
+    padding-bottom: 4vh;
 }
 .header {
+    min-height: 100vh;
     margin: 0px;
     padding: 0px;
-    padding-top: 40vh;
+    padding-top: 25vh;
+}
+#headshot {
+    margin-bottom: 2vh;
 }
 .quick-nav > a {
     padding-right: 5px;
@@ -207,6 +210,9 @@ margin-bottom: 0;
 }
 
 @media (max-width: 767px) {
+.header {
+    padding-top: 15vh;
+}
 ul.timeline:before {
     left: 40px;
 }
