@@ -32,7 +32,10 @@ section:last-of-type > .container {
     padding-top: 25vh;
 }
 .skills-headers {
-    padding: 1vh;
+    padding: 0.5vh;
+}
+.skill-col {
+	margin-bottom: 3vh;
 }
 #headshot {
     margin-bottom: 2vh;
