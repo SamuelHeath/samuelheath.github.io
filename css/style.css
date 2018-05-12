@@ -53,8 +53,8 @@ section:last-of-type > .container {
 .content {
     min-height: 100vh;
 }
-#information {
-    padding-bottom: 1vh;
+.info-content {
+	padding-bottom: 1vh;
 }
 .figure {
     min-width: 100%;
